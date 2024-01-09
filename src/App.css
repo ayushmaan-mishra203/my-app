@@ -36,3 +36,91 @@
     transform: rotate(360deg);
   }
 }
+
+
+      .h1{
+
+        position:relative;
+        
+       
+
+      }
+
+      .text{
+        position: absolute;
+        top: 484px;
+        left: 120px;
+
+      }
+
+      .box{
+        width: 500px;
+        height: 500px;
+        padding: 20px;
+        border: 1px solid #920505;
+        border-radius: 40px; 
+        background: linear-gradient(45deg, #3498db, #2ecc71, #9c23d4); 
+        margin: 100px;
+        position: absolute;
+        left: 300px;
+      }
+
+      .textbutton{
+        cursor: pointer;
+        color: #ff0000;
+        text-decoration: underline;
+        position: absolute;
+        top: 500px;
+        left: 300px;
+        font-size: large;
+      }
+
+      .input1{
+        padding: 20px 30px;
+        border-radius: 10px;
+        width: 400px;
+
+        position: absolute;
+        left:50px;
+        top: 150px;
+      }
+
+      .input2{
+        padding: 20px 30px;
+        border-radius: 10px;
+        width: 400px;
+     
+        position: absolute;
+        left:50px;
+        top: 225px;
+      }
+
+      .button{
+      padding: 20px 30px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+        color: #fff;
+        background-color: #04AA6D;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 5px #999;
+
+        position:relative;
+        top:310px;
+   
+
+     }
+      .button:hover {background-color:#3e8e41;}
+      .textbutton:hover{color: #fb0000;}
+      
+      .button:active{
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translate(4px);
+      }
+     
+
+      
+

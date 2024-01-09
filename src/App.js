@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import  './page.html';
 import './App.css';
+
+function RedirectToNewPage() {
+  window.location.assign('/page.html');
+}
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+     <div class="box">
+    
+    <h1 className="h1" >Login</h1>
+    <input className="input1" type="text" placeholder="Username"/>
+    <input className="input2" type="password" placeholder="Password"/>
+    <button className="button" onClick={RedirectToNewPage}>Enter Marketplace</button>
+    <span class="textbutton">Create An Account</span>
+    <h4 class="text">Dont have an account??</h4>
+
+   </div>   
     </div>
   );
 }
